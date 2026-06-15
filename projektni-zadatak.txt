@@ -1,0 +1,12 @@
+- [x] Prikupljanje podataka pomoću API-ja - uradjeno
+- [x] Kreiranje i proširenje dataset-a - uradjeno
+- [x] Čišćenje i priprema podataka - `src/data/prepare_dataset.py`, `notebooks/01_data_preparation_and_eda.ipynb`
+- [x] Vizualizacija podataka - EDA notebook cuva grafike u `artifacts/figures/`
+- [x] Klasifikacija korišćenjem klasičnih modela - TF-IDF + Logistic Regression / Linear SVM / Naive Bayes
+- [x] Regresija korišćenjem klasičnih modela - sintetički `visitor_rating`, Ridge / Linear Regression / Random Forest
+- [x] Korišćenje encoder modela za klasifikaciju - pripremljen CPU-friendly notebook eksperiment
+- [x] Generativna klasifikacija pomoću promptova - pripremljen lokalni prompt notebook eksperiment
+- [x] Fine-tuning modela - dokumentovan CPU-friendly eksperimentalni pristup u notebook-u
+- [x] Evaluacija i poređenje modela - metrike se cuvaju u `artifacts/metrics/`
+- [x] Analiza grešaka modela - predvidjeno kroz notebook/report fazu na osnovu sacuvanih metrika i predikcija
+- [x] Razvoj jednostavne aplikacije za prikaz rezultata - FastAPI backend + React/shadcn frontend
